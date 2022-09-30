@@ -1,0 +1,2451 @@
+2022/09/30-13:29:00.614649 cdc RocksDB version: 6.29.5
+2022/09/30-13:29:00.615063 cdc Git sha da11a59034584ea2d0911268b8136e5249d6b692
+2022/09/30-13:29:00.615130 cdc Compile date 2022-03-30 20:36:34
+2022/09/30-13:29:00.615167 cdc DB SUMMARY
+2022/09/30-13:29:00.615200 cdc DB Session ID:  8U37S0K704YIFCM2IL4W
+2022/09/30-13:29:00.617192 cdc SST files in C:\Users\Angga Danar\Documents\tutorial\besu\IBFT-Network\Node-5\data\database dir, Total Num: 0, files: 
+2022/09/30-13:29:00.617264 cdc Write Ahead Log file in C:\Users\Angga Danar\Documents\tutorial\besu\IBFT-Network\Node-5\data\database: 
+2022/09/30-13:29:00.617301 cdc                         Options.error_if_exists: 0
+2022/09/30-13:29:00.617325 cdc                       Options.create_if_missing: 1
+2022/09/30-13:29:00.618040 cdc                         Options.paranoid_checks: 1
+2022/09/30-13:29:00.618077 cdc             Options.flush_verify_memtable_count: 1
+2022/09/30-13:29:00.618086 cdc                               Options.track_and_verify_wals_in_manifest: 0
+2022/09/30-13:29:00.618094 cdc                                     Options.env: 000002109B682EE0
+2022/09/30-13:29:00.618103 cdc                                      Options.fs: WinFS
+2022/09/30-13:29:00.618111 cdc                                Options.info_log: 000002109D539950
+2022/09/30-13:29:00.618119 cdc                Options.max_file_opening_threads: 16
+2022/09/30-13:29:00.618127 cdc                              Options.statistics: 000002109C1A9140
+2022/09/30-13:29:00.618273 cdc                               Options.use_fsync: 0
+2022/09/30-13:29:00.618282 cdc                       Options.max_log_file_size: 0
+2022/09/30-13:29:00.618290 cdc                  Options.max_manifest_file_size: 1073741824
+2022/09/30-13:29:00.618298 cdc                   Options.log_file_time_to_roll: 0
+2022/09/30-13:29:00.618306 cdc                       Options.keep_log_file_num: 1000
+2022/09/30-13:29:00.618314 cdc                    Options.recycle_log_file_num: 0
+2022/09/30-13:29:00.618321 cdc                         Options.allow_fallocate: 1
+2022/09/30-13:29:00.618328 cdc                        Options.allow_mmap_reads: 0
+2022/09/30-13:29:00.618336 cdc                       Options.allow_mmap_writes: 0
+2022/09/30-13:29:00.618343 cdc                        Options.use_direct_reads: 0
+2022/09/30-13:29:00.618351 cdc                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/09/30-13:29:00.618358 cdc          Options.create_missing_column_families: 1
+2022/09/30-13:29:00.618365 cdc                              Options.db_log_dir: 
+2022/09/30-13:29:00.618373 cdc                                 Options.wal_dir: 
+2022/09/30-13:29:00.618380 cdc                Options.table_cache_numshardbits: 6
+2022/09/30-13:29:00.618388 cdc                         Options.WAL_ttl_seconds: 0
+2022/09/30-13:29:00.618395 cdc                       Options.WAL_size_limit_MB: 0
+2022/09/30-13:29:00.618402 cdc                        Options.max_write_batch_group_size_bytes: 1048576
+2022/09/30-13:29:00.618410 cdc             Options.manifest_preallocation_size: 4194304
+2022/09/30-13:29:00.618418 cdc                     Options.is_fd_close_on_exec: 1
+2022/09/30-13:29:00.618425 cdc                   Options.advise_random_on_open: 1
+2022/09/30-13:29:00.618432 cdc                   Options.experimental_mempurge_threshold: 0.000000
+2022/09/30-13:29:00.618443 cdc                    Options.db_write_buffer_size: 0
+2022/09/30-13:29:00.618451 cdc                    Options.write_buffer_manager: 000002109B683C00
+2022/09/30-13:29:00.618458 cdc         Options.access_hint_on_compaction_start: 1
+2022/09/30-13:29:00.618466 cdc  Options.new_table_reader_for_compaction_inputs: 0
+2022/09/30-13:29:00.618473 cdc           Options.random_access_max_buffer_size: 1048576
+2022/09/30-13:29:00.618481 cdc                      Options.use_adaptive_mutex: 0
+2022/09/30-13:29:00.618488 cdc                            Options.rate_limiter: 0000000000000000
+2022/09/30-13:29:00.618498 cdc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/09/30-13:29:00.618505 cdc                       Options.wal_recovery_mode: 2
+2022/09/30-13:29:00.618617 cdc                  Options.enable_thread_tracking: 0
+2022/09/30-13:29:00.618638 cdc                  Options.enable_pipelined_write: 0
+2022/09/30-13:29:00.618645 cdc                  Options.unordered_write: 0
+2022/09/30-13:29:00.618653 cdc         Options.allow_concurrent_memtable_write: 1
+2022/09/30-13:29:00.618660 cdc      Options.enable_write_thread_adaptive_yield: 1
+2022/09/30-13:29:00.618668 cdc             Options.write_thread_max_yield_usec: 100
+2022/09/30-13:29:00.618726 cdc            Options.write_thread_slow_yield_usec: 3
+2022/09/30-13:29:00.618734 cdc                               Options.row_cache: None
+2022/09/30-13:29:00.618741 cdc                              Options.wal_filter: None
+2022/09/30-13:29:00.618750 cdc             Options.avoid_flush_during_recovery: 0
+2022/09/30-13:29:00.618757 cdc             Options.allow_ingest_behind: 0
+2022/09/30-13:29:00.618764 cdc             Options.preserve_deletes: 0
+2022/09/30-13:29:00.618772 cdc             Options.two_write_queues: 0
+2022/09/30-13:29:00.618779 cdc             Options.manual_wal_flush: 0
+2022/09/30-13:29:00.618787 cdc             Options.atomic_flush: 0
+2022/09/30-13:29:00.618794 cdc             Options.avoid_unnecessary_blocking_io: 0
+2022/09/30-13:29:00.618802 cdc                 Options.persist_stats_to_disk: 0
+2022/09/30-13:29:00.618810 cdc                 Options.write_dbid_to_manifest: 0
+2022/09/30-13:29:00.618817 cdc                 Options.log_readahead_size: 0
+2022/09/30-13:29:00.618825 cdc                 Options.file_checksum_gen_factory: Unknown
+2022/09/30-13:29:00.618833 cdc                 Options.best_efforts_recovery: 0
+2022/09/30-13:29:00.618841 cdc                Options.max_bgerror_resume_count: 2147483647
+2022/09/30-13:29:00.618848 cdc            Options.bgerror_resume_retry_interval: 1000000
+2022/09/30-13:29:00.618856 cdc             Options.allow_data_in_errors: 0
+2022/09/30-13:29:00.618864 cdc             Options.db_host_id: __hostname__
+2022/09/30-13:29:00.618872 cdc             Options.max_background_jobs: 2
+2022/09/30-13:29:00.618879 cdc             Options.max_background_compactions: 4
+2022/09/30-13:29:00.618887 cdc             Options.max_subcompactions: 1
+2022/09/30-13:29:00.618902 cdc             Options.avoid_flush_during_shutdown: 0
+2022/09/30-13:29:00.618909 cdc           Options.writable_file_max_buffer_size: 1048576
+2022/09/30-13:29:00.618917 cdc             Options.delayed_write_rate : 16777216
+2022/09/30-13:29:00.618924 cdc             Options.max_total_wal_size: 0
+2022/09/30-13:29:00.618932 cdc             Options.delete_obsolete_files_period_micros: 21600000000
+2022/09/30-13:29:00.618939 cdc                   Options.stats_dump_period_sec: 600
+2022/09/30-13:29:00.618947 cdc                 Options.stats_persist_period_sec: 600
+2022/09/30-13:29:00.618955 cdc                 Options.stats_history_buffer_size: 1048576
+2022/09/30-13:29:00.618962 cdc                          Options.max_open_files: 1024
+2022/09/30-13:29:00.618970 cdc                          Options.bytes_per_sync: 0
+2022/09/30-13:29:00.618977 cdc                      Options.wal_bytes_per_sync: 0
+2022/09/30-13:29:00.618985 cdc                   Options.strict_bytes_per_sync: 0
+2022/09/30-13:29:00.618992 cdc       Options.compaction_readahead_size: 0
+2022/09/30-13:29:00.619000 cdc                  Options.max_background_flushes: -1
+2022/09/30-13:29:00.619008 cdc Compression algorithms supported:
+2022/09/30-13:29:00.619065 cdc 	kZSTD supported: 1
+2022/09/30-13:29:00.619073 cdc 	kSnappyCompression supported: 1
+2022/09/30-13:29:00.619081 cdc 	kBZip2Compression supported: 0
+2022/09/30-13:29:00.619089 cdc 	kZlibCompression supported: 1
+2022/09/30-13:29:00.619096 cdc 	kLZ4Compression supported: 1
+2022/09/30-13:29:00.619104 cdc 	kXpressCompression supported: 0
+2022/09/30-13:29:00.619111 cdc 	kLZ4HCCompression supported: 1
+2022/09/30-13:29:00.619119 cdc 	kZSTDNotFinalCompression supported: 1
+2022/09/30-13:29:00.619137 cdc Fast CRC32 supported: Not supported on x86
+2022/09/30-13:29:00.629393 cdc [db\db_impl\db_impl_open.cc:307] Creating manifest 1 
+2022/09/30-13:29:00.647103 cdc [db\version_set.cc:4889] Recovering from manifest file: C:\Users\Angga Danar\Documents\tutorial\besu\IBFT-Network\Node-5\data\database/MANIFEST-000001
+2022/09/30-13:29:00.648918 cdc [db\column_family.cc:607] --------------- Options for column family [default]:
+2022/09/30-13:29:00.648982 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.648992 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.648999 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.649122 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.649185 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.649254 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.649276 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.649475 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D590390)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4C670
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.649504 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.649512 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.649520 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.649527 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.649535 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.649542 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.649550 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.649557 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.649564 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.649571 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.649579 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.649587 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.649594 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.649602 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.649609 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.649617 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.649624 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.649631 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.649639 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.649646 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.649654 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.649661 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.649668 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.649676 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.649691 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.649701 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.649709 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.649716 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.649724 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.649731 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.649738 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.649746 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.649753 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.649760 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.649770 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.649777 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.649785 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.649792 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.649799 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.649806 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.649814 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.649821 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.649828 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.649835 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.649843 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.649850 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.649858 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.649865 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.649875 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.649884 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.649906 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.649914 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.649921 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.649929 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.649936 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.649945 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.649953 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.649960 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.649976 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.649984 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.649991 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.649999 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.650007 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.650014 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.650021 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.650028 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.650036 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.650043 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.650050 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.650057 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.650064 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.650169 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.650179 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.650187 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.650194 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.650202 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.650210 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.650217 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.650227 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.650235 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.658544 cdc [db\version_set.cc:4937] Recovered from manifest file:C:\Users\Angga Danar\Documents\tutorial\besu\IBFT-Network\Node-5\data\database/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2022/09/30-13:29:00.658585 cdc [db\version_set.cc:4946] Column family [default] (ID 0), log number is 0
+2022/09/30-13:29:00.661239 cdc [db\version_set.cc:4410] Creating manifest 4
+2022/09/30-13:29:00.679318 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.679360 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.679370 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.679377 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.679385 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.679393 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.679400 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.679408 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.679482 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58F310)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4D030
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.679495 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.679503 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.679511 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.679518 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.679526 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.679533 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.679540 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.679547 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.679555 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.679562 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.679569 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.679577 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.679596 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.679609 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.679617 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.679624 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.679632 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.679639 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.679647 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.679654 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.679661 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.679668 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.679676 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.679683 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.679690 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.679698 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.679705 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.679712 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.679719 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.679727 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.679734 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.679741 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.679749 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.679756 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.679765 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.679773 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.679780 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.679787 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.679795 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.679802 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.679809 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.679817 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.679824 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.679831 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.679839 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.679846 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.679854 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.679861 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.679870 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.679879 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.679897 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.679905 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.679912 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.679920 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.679927 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.679937 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.679944 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.679952 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.679969 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.679978 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.679986 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.679993 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.680002 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.680009 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.680016 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.680023 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.680031 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.680038 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.680045 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.680052 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.680059 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.680067 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.680074 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.680081 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.680088 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.680096 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.680103 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.680110 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.680119 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.680127 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.680790 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 1)
+2022/09/30-13:29:00.705476 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.705531 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.705541 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.705548 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.705556 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.705563 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.705570 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.705578 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.705635 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58F730)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4CEB0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.705644 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.705652 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.705660 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.705667 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.705683 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.705695 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.705703 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.705710 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.705717 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.705725 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.705732 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.705740 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.705747 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.705755 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.705762 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.705770 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.705777 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.705785 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.705792 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.705800 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.705807 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.705814 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.705821 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.705829 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.705836 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.705843 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.705851 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.705858 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.705865 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.705872 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.705880 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.705898 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.705906 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.705913 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.705923 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.705930 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.705938 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.705945 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.705952 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.705960 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.705967 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.705974 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.705982 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.705989 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.705997 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.706004 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.706011 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.706019 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.706028 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.706036 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.706176 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.706298 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.706311 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.706319 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.706327 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.706339 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.706347 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.706355 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.706371 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.706378 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.706386 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.706393 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.706433 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.706441 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.706449 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.706456 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.706464 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.706471 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.706478 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.706486 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.706493 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.706500 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.706507 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.706515 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.706522 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.706543 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.706554 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.706561 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.706571 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.706579 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.707242 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 2)
+2022/09/30-13:29:00.726625 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.726680 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.726689 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.726697 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.726704 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.726711 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.726719 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.726726 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.726783 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58F220)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4D0F0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.726804 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.726817 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.726825 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.726832 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.726840 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.726847 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.726854 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.726861 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.726869 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.726876 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.726884 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.726901 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.726909 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.726917 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.726924 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.726932 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.726939 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.726947 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.726954 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.726962 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.726969 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.726976 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.726984 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.726991 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.726998 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.727005 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.727013 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.727020 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.727028 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.727035 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.727042 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.727050 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.727057 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.727064 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.727073 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.727081 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.727089 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.727096 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.727103 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.727110 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.727118 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.727125 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.727132 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.727140 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.727149 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.727158 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.727166 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.727173 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.727182 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.727191 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.727199 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.727206 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.727213 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.727221 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.727228 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.727237 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.727245 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.727252 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.727266 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.727274 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.727281 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.727288 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.727296 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.727304 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.727311 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.727318 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.727325 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.727332 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.727339 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.727347 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.727354 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.727361 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.727368 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.727376 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.727383 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.727391 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.727398 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.727405 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.727414 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.727422 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.728014 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 3)
+2022/09/30-13:29:00.747386 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.747438 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.747448 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.747455 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.747463 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.747470 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.747477 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.747485 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.747555 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58F640)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4C2B0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.747576 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.747588 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.747596 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.747603 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.747611 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.747618 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.747625 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.747632 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.747639 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.747647 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.747654 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.747662 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.747669 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.747677 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.747684 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.747692 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.747699 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.747707 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.747714 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.747722 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.747729 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.747736 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.747744 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.747751 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.747758 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.747765 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.747773 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.747780 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.747787 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.747795 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.747802 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.747809 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.747817 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.747824 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.747833 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.747841 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.747851 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.747860 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.747867 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.747875 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.747882 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.747899 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.747906 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.747914 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.747921 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.747929 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.747936 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.747944 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.747953 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.747962 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.747970 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.747977 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.747984 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.747992 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.747999 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.748008 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.748016 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.748023 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.748037 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.748045 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.748053 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.748060 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.748068 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.748075 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.748083 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.748090 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.748097 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.748104 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.748112 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.748119 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.748126 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.748133 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.748140 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.748148 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.748155 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.748163 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.748170 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.748177 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.748186 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.748194 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.749606 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 4)
+2022/09/30-13:29:00.776614 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.776673 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.776693 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.776706 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.776714 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.776721 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.776728 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.776736 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.776793 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58F250)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4D1B0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.776803 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.776810 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.776818 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.776825 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.776833 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.776840 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.776847 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.776854 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.776862 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.776869 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.776876 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.776884 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.776892 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.776908 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.776916 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.776923 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.776931 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.776938 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.776946 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.776953 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.776960 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.776968 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.776975 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.776982 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.776989 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.776996 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.777004 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.777011 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.777018 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.777028 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.777037 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.777045 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.777052 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.777059 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.777068 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.777076 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.777083 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.777091 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.777098 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.777105 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.777112 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.777120 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.777127 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.777134 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.777142 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.777149 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.777156 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.777164 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.777173 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.777182 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.777189 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.777197 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.777204 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.777211 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.777219 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.777228 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.777235 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.777254 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.777282 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.777291 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.777298 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.777305 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.777314 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.777321 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.777328 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.777336 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.777343 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.777350 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.777357 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.777365 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.777372 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.777379 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.777386 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.777393 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.777401 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.777408 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.777424 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.777433 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.777441 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.777449 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.778147 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 5)
+2022/09/30-13:29:00.800034 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.800088 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.800097 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.800105 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.800113 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.800120 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.800127 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.800135 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.800191 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58F880)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4C730
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.800201 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.800232 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.800240 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.800247 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.800255 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.800262 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.800269 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.800276 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.800284 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.800291 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.800298 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.800306 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.800314 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.800321 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.800329 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.800336 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.800343 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.800351 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.800358 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.800366 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.800373 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.800495 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.800513 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.800521 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.800529 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.800536 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.800544 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.800551 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.800558 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.800566 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.800822 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.800839 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.800847 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.800855 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.800866 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.800874 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.800882 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.800889 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.800908 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.801052 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.801067 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.801076 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.801084 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.801092 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.801099 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.801107 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.801114 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.801122 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.801137 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.801195 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.801219 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.801228 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.801236 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.801243 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.801251 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.801261 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.801269 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.801276 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.801293 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.801301 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.801308 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.801316 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.801326 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.801333 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.801341 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.801348 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.801355 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.801363 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.801503 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.801520 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.801528 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.801535 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.801543 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.801550 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.801558 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.801566 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.801574 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.801581 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.801592 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.801600 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.802628 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 6)
+2022/09/30-13:29:00.831334 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.831395 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.831404 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.831412 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.831420 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.831427 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.831434 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.831442 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.831499 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58F2B0)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4C430
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.831509 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.831517 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.831525 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.831532 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.831540 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.831547 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.831554 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.831562 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.831569 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.831576 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.831584 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.831592 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.831599 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.831607 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.831714 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.831730 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.831738 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.831745 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.831753 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.831761 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.831769 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.831776 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.831783 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.831791 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.831798 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.831806 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.831813 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.831821 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.831828 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.831835 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.831843 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.831850 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.831857 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.831865 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.831874 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.831882 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.831890 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.832334 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.832373 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.832382 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.832390 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.832398 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.832405 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.832413 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.832420 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.832428 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.832435 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.832443 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.832457 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.832466 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.832474 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.832482 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.832489 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.832497 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.832504 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.832514 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.832521 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.832529 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.832544 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.832552 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.832654 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.832669 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.832680 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.832688 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.832695 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.832702 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.832710 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.832717 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.832724 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.832732 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.832739 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.832746 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.832753 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.832761 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.832768 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.832776 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.832784 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.832791 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.832801 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.832809 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.833513 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 7)
+2022/09/30-13:29:00.871551 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.871826 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.871842 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.871850 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.871857 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.871864 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.871872 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.871880 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.871955 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58EDA0)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4BE30
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.871966 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.871973 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.871981 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.871988 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.871996 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.872003 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.872010 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.872113 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.872129 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.872136 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.872144 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.872152 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.872159 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.872167 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.872175 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.872182 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.872190 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.872198 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.872205 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.872213 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.872220 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.872227 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.872235 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.872242 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.872249 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.872257 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.872264 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.872271 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.872279 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.872286 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.872293 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.872301 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.872308 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.872315 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.872324 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.872332 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.872340 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.872347 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.872354 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.872362 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.872369 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.872376 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.872383 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.872391 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.872398 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.872405 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.872413 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.872420 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.872430 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.872439 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.872446 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.872454 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.872461 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.872468 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.872512 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.872524 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.872532 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.872540 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.872555 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.872563 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.872571 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.872578 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.872587 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.872594 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.872602 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.872609 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.872616 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.872624 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.872631 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.872638 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.872645 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.872653 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.872660 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.872668 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.872675 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.872682 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.872690 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.872697 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.872706 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.872714 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.873500 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 8)
+2022/09/30-13:29:00.906758 cdc [db\column_family.cc:607] --------------- Options for column family []:
+2022/09/30-13:29:00.906815 cdc               Options.comparator: leveldb.BytewiseComparator
+2022/09/30-13:29:00.906825 cdc           Options.merge_operator: None
+2022/09/30-13:29:00.906832 cdc        Options.compaction_filter: None
+2022/09/30-13:29:00.906840 cdc        Options.compaction_filter_factory: None
+2022/09/30-13:29:00.906847 cdc  Options.sst_partitioner_factory: None
+2022/09/30-13:29:00.906855 cdc         Options.memtable_factory: SkipListFactory
+2022/09/30-13:29:00.906862 cdc            Options.table_factory: BlockBasedTable
+2022/09/30-13:29:00.907846 cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002109D58EE90)
+  cache_index_and_filter_blocks: 1
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002109AE4D270
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 134217728
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/09/30-13:29:00.908247 cdc        Options.write_buffer_size: 67108864
+2022/09/30-13:29:00.908278 cdc  Options.max_write_buffer_number: 2
+2022/09/30-13:29:00.908288 cdc          Options.compression: LZ4
+2022/09/30-13:29:00.908296 cdc                  Options.bottommost_compression: Disabled
+2022/09/30-13:29:00.908303 cdc       Options.prefix_extractor: nullptr
+2022/09/30-13:29:00.908310 cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/09/30-13:29:00.908318 cdc             Options.num_levels: 7
+2022/09/30-13:29:00.908325 cdc        Options.min_write_buffer_number_to_merge: 1
+2022/09/30-13:29:00.908332 cdc     Options.max_write_buffer_number_to_maintain: 0
+2022/09/30-13:29:00.908339 cdc     Options.max_write_buffer_size_to_maintain: 134217728
+2022/09/30-13:29:00.908347 cdc            Options.bottommost_compression_opts.window_bits: -14
+2022/09/30-13:29:00.908355 cdc                  Options.bottommost_compression_opts.level: 32767
+2022/09/30-13:29:00.908363 cdc               Options.bottommost_compression_opts.strategy: 0
+2022/09/30-13:29:00.908370 cdc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.908378 cdc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.908386 cdc         Options.bottommost_compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.908393 cdc                  Options.bottommost_compression_opts.enabled: false
+2022/09/30-13:29:00.908400 cdc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.908408 cdc            Options.compression_opts.window_bits: -14
+2022/09/30-13:29:00.908415 cdc                  Options.compression_opts.level: 32767
+2022/09/30-13:29:00.908423 cdc               Options.compression_opts.strategy: 0
+2022/09/30-13:29:00.908430 cdc         Options.compression_opts.max_dict_bytes: 0
+2022/09/30-13:29:00.908437 cdc         Options.compression_opts.zstd_max_train_bytes: 0
+2022/09/30-13:29:00.908444 cdc         Options.compression_opts.parallel_threads: 1
+2022/09/30-13:29:00.908451 cdc                  Options.compression_opts.enabled: false
+2022/09/30-13:29:00.908459 cdc         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/09/30-13:29:00.908466 cdc      Options.level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:00.908474 cdc          Options.level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:00.908481 cdc              Options.level0_stop_writes_trigger: 36
+2022/09/30-13:29:00.908488 cdc                   Options.target_file_size_base: 67108864
+2022/09/30-13:29:00.908495 cdc             Options.target_file_size_multiplier: 1
+2022/09/30-13:29:00.908502 cdc                Options.max_bytes_for_level_base: 268435456
+2022/09/30-13:29:00.908510 cdc Options.level_compaction_dynamic_level_bytes: 0
+2022/09/30-13:29:00.908517 cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:00.908532 cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/09/30-13:29:00.908539 cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/09/30-13:29:00.908547 cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/09/30-13:29:00.908554 cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/09/30-13:29:00.908561 cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/09/30-13:29:00.908568 cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/09/30-13:29:00.908575 cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/09/30-13:29:00.908583 cdc       Options.max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:00.908590 cdc                    Options.max_compaction_bytes: 1677721600
+2022/09/30-13:29:00.908598 cdc                        Options.arena_block_size: 1048576
+2022/09/30-13:29:00.908605 cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:00.908612 cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:00.908678 cdc       Options.rate_limit_delay_max_milliseconds: 100
+2022/09/30-13:29:00.908688 cdc                Options.disable_auto_compactions: 1
+2022/09/30-13:29:00.908702 cdc                        Options.compaction_style: kCompactionStyleLevel
+2022/09/30-13:29:00.908712 cdc                          Options.compaction_pri: kMinOverlappingRatio
+2022/09/30-13:29:00.908720 cdc Options.compaction_options_universal.size_ratio: 1
+2022/09/30-13:29:00.908727 cdc Options.compaction_options_universal.min_merge_width: 2
+2022/09/30-13:29:00.908735 cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2022/09/30-13:29:00.908742 cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/09/30-13:29:00.908750 cdc Options.compaction_options_universal.compression_size_percent: -1
+2022/09/30-13:29:00.908759 cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/09/30-13:29:00.908767 cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/09/30-13:29:00.908774 cdc Options.compaction_options_fifo.allow_compaction: 0
+2022/09/30-13:29:00.908793 cdc                   Options.table_properties_collectors: 
+2022/09/30-13:29:00.908801 cdc                   Options.inplace_update_support: 0
+2022/09/30-13:29:00.908808 cdc                 Options.inplace_update_num_locks: 10000
+2022/09/30-13:29:00.908816 cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/09/30-13:29:00.908825 cdc               Options.memtable_whole_key_filtering: 0
+2022/09/30-13:29:00.908832 cdc   Options.memtable_huge_page_size: 0
+2022/09/30-13:29:00.908839 cdc                           Options.bloom_locality: 0
+2022/09/30-13:29:00.908847 cdc                    Options.max_successive_merges: 0
+2022/09/30-13:29:00.908854 cdc                Options.optimize_filters_for_hits: 0
+2022/09/30-13:29:00.908861 cdc                Options.paranoid_file_checks: 0
+2022/09/30-13:29:00.908869 cdc                Options.force_consistency_checks: 1
+2022/09/30-13:29:00.908876 cdc                Options.report_bg_io_stats: 0
+2022/09/30-13:29:00.908883 cdc                               Options.ttl: 0
+2022/09/30-13:29:00.908890 cdc          Options.periodic_compaction_seconds: 0
+2022/09/30-13:29:00.908910 cdc                       Options.enable_blob_files: false
+2022/09/30-13:29:00.908918 cdc                           Options.min_blob_size: 0
+2022/09/30-13:29:00.908925 cdc                          Options.blob_file_size: 268435456
+2022/09/30-13:29:00.908932 cdc                   Options.blob_compression_type: NoCompression
+2022/09/30-13:29:00.908940 cdc          Options.enable_blob_garbage_collection: false
+2022/09/30-13:29:00.908947 cdc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:00.908957 cdc Options.blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:00.908965 cdc          Options.blob_compaction_readahead_size: 0
+2022/09/30-13:29:00.909645 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 9)
+2022/09/30-13:29:00.940946 cdc [db\column_family.cc:610] 	(skipping printing options)
+2022/09/30-13:29:00.941936 cdc [db\db_impl\db_impl.cc:2782] Created column family [] (ID 10)
+2022/09/30-13:29:01.006551 cdc [db\db_impl\db_impl_open.cc:1821] SstFileManager instance 000002109A3EFB80
+2022/09/30-13:29:01.008045 cdc DB pointer 000002109B52B130
+2022/09/30-13:29:01.008317 cdc [WARN] [utilities\transactions\pessimistic_transaction_db.cc:245] Transaction write_policy is 0
+2022/09/30-13:29:01.011271 930 [db\db_impl\db_impl.cc:1014] ------- DUMPING STATS -------
+2022/09/30-13:29:01.011314 930 [db\db_impl\db_impl.cc:1015] 
+** DB Stats **
+Uptime(secs): 0.4 total, 0.4 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.4 total, 0.4 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4C670#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 0.000179 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.3 total, 0.3 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4D030#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 8.5e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.3 total, 0.3 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4CEB0#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 8.9e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.3 total, 0.3 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4D0F0#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 8.7e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.3 total, 0.3 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4C2B0#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 9.9e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.2 total, 0.2 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4D1B0#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 8.2e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.2 total, 0.2 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4C730#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 8e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.2 total, 0.2 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4C430#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 0.000136 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.1 total, 0.1 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4BE30#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 8.5e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.1 total, 0.1 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4D270#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 8.1e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** Compaction Stats [] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB
+
+Uptime(secs): 0.1 total, 0.1 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000002109AE4C7F0#7340 capacity: 128.00 MB collections: 1 last_copies: 0 last_secs: 8e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [default] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+
+** File Read Latency Histogram By Level [] **
+2022/09/30-13:29:01.012360 930 [db\db_impl\db_impl.cc:768] STATISTICS:
+ rocksdb.block.cache.miss COUNT : 0
+rocksdb.block.cache.hit COUNT : 0
+rocksdb.block.cache.add COUNT : 0
+rocksdb.block.cache.add.failures COUNT : 0
+rocksdb.block.cache.index.miss COUNT : 0
+rocksdb.block.cache.index.hit COUNT : 0
+rocksdb.block.cache.index.add COUNT : 0
+rocksdb.block.cache.index.bytes.insert COUNT : 0
+rocksdb.block.cache.index.bytes.evict COUNT : 0
+rocksdb.block.cache.filter.miss COUNT : 0
+rocksdb.block.cache.filter.hit COUNT : 0
+rocksdb.block.cache.filter.add COUNT : 0
+rocksdb.block.cache.filter.bytes.insert COUNT : 0
+rocksdb.block.cache.filter.bytes.evict COUNT : 0
+rocksdb.block.cache.data.miss COUNT : 0
+rocksdb.block.cache.data.hit COUNT : 0
+rocksdb.block.cache.data.add COUNT : 0
+rocksdb.block.cache.data.bytes.insert COUNT : 0
+rocksdb.block.cache.bytes.read COUNT : 0
+rocksdb.block.cache.bytes.write COUNT : 0
+rocksdb.bloom.filter.useful COUNT : 0
+rocksdb.bloom.filter.full.positive COUNT : 0
+rocksdb.bloom.filter.full.true.positive COUNT : 0
+rocksdb.bloom.filter.micros COUNT : 0
+rocksdb.persistent.cache.hit COUNT : 0
+rocksdb.persistent.cache.miss COUNT : 0
+rocksdb.sim.block.cache.hit COUNT : 0
+rocksdb.sim.block.cache.miss COUNT : 0
+rocksdb.memtable.hit COUNT : 0
+rocksdb.memtable.miss COUNT : 0
+rocksdb.l0.hit COUNT : 0
+rocksdb.l1.hit COUNT : 0
+rocksdb.l2andup.hit COUNT : 0
+rocksdb.compaction.key.drop.new COUNT : 0
+rocksdb.compaction.key.drop.obsolete COUNT : 0
+rocksdb.compaction.key.drop.range_del COUNT : 0
+rocksdb.compaction.key.drop.user COUNT : 0
+rocksdb.compaction.range_del.drop.obsolete COUNT : 0
+rocksdb.compaction.optimized.del.drop.obsolete COUNT : 0
+rocksdb.compaction.cancelled COUNT : 0
+rocksdb.number.keys.written COUNT : 0
+rocksdb.number.keys.read COUNT : 0
+rocksdb.number.keys.updated COUNT : 0
+rocksdb.bytes.written COUNT : 0
+rocksdb.bytes.read COUNT : 0
+rocksdb.number.db.seek COUNT : 0
+rocksdb.number.db.next COUNT : 0
+rocksdb.number.db.prev COUNT : 0
+rocksdb.number.db.seek.found COUNT : 0
+rocksdb.number.db.next.found COUNT : 0
+rocksdb.number.db.prev.found COUNT : 0
+rocksdb.db.iter.bytes.read COUNT : 0
+rocksdb.no.file.closes COUNT : 0
+rocksdb.no.file.opens COUNT : 0
+rocksdb.no.file.errors COUNT : 0
+rocksdb.l0.slowdown.micros COUNT : 0
+rocksdb.memtable.compaction.micros COUNT : 0
+rocksdb.l0.num.files.stall.micros COUNT : 0
+rocksdb.stall.micros COUNT : 0
+rocksdb.db.mutex.wait.micros COUNT : 0
+rocksdb.rate.limit.delay.millis COUNT : 0
+rocksdb.num.iterators COUNT : 0
+rocksdb.number.multiget.get COUNT : 0
+rocksdb.number.multiget.keys.read COUNT : 0
+rocksdb.number.multiget.bytes.read COUNT : 0
+rocksdb.number.deletes.filtered COUNT : 0
+rocksdb.number.merge.failures COUNT : 0
+rocksdb.bloom.filter.prefix.checked COUNT : 0
+rocksdb.bloom.filter.prefix.useful COUNT : 0
+rocksdb.number.reseeks.iteration COUNT : 0
+rocksdb.getupdatessince.calls COUNT : 0
+rocksdb.block.cachecompressed.miss COUNT : 0
+rocksdb.block.cachecompressed.hit COUNT : 0
+rocksdb.block.cachecompressed.add COUNT : 0
+rocksdb.block.cachecompressed.add.failures COUNT : 0
+rocksdb.wal.synced COUNT : 0
+rocksdb.wal.bytes COUNT : 0
+rocksdb.write.self COUNT : 0
+rocksdb.write.other COUNT : 0
+rocksdb.write.timeout COUNT : 0
+rocksdb.write.wal COUNT : 0
+rocksdb.compact.read.bytes COUNT : 0
+rocksdb.compact.write.bytes COUNT : 0
+rocksdb.flush.write.bytes COUNT : 0
+rocksdb.compact.read.marked.bytes COUNT : 0
+rocksdb.compact.read.periodic.bytes COUNT : 0
+rocksdb.compact.read.ttl.bytes COUNT : 0
+rocksdb.compact.write.marked.bytes COUNT : 0
+rocksdb.compact.write.periodic.bytes COUNT : 0
+rocksdb.compact.write.ttl.bytes COUNT : 0
+rocksdb.number.direct.load.table.properties COUNT : 0
+rocksdb.number.superversion_acquires COUNT : 0
+rocksdb.number.superversion_releases COUNT : 0
+rocksdb.number.superversion_cleanups COUNT : 0
+rocksdb.number.block.compressed COUNT : 0
+rocksdb.number.block.decompressed COUNT : 0
+rocksdb.number.block.not_compressed COUNT : 0
+rocksdb.merge.operation.time.nanos COUNT : 0
+rocksdb.filter.operation.time.nanos COUNT : 0
+rocksdb.row.cache.hit COUNT : 0
+rocksdb.row.cache.miss COUNT : 0
+rocksdb.read.amp.estimate.useful.bytes COUNT : 0
+rocksdb.read.amp.total.read.bytes COUNT : 0
+rocksdb.number.rate_limiter.drains COUNT : 0
+rocksdb.number.iter.skip COUNT : 0
+rocksdb.blobdb.num.put COUNT : 0
+rocksdb.blobdb.num.write COUNT : 0
+rocksdb.blobdb.num.get COUNT : 0
+rocksdb.blobdb.num.multiget COUNT : 0
+rocksdb.blobdb.num.seek COUNT : 0
+rocksdb.blobdb.num.next COUNT : 0
+rocksdb.blobdb.num.prev COUNT : 0
+rocksdb.blobdb.num.keys.written COUNT : 0
+rocksdb.blobdb.num.keys.read COUNT : 0
+rocksdb.blobdb.bytes.written COUNT : 0
+rocksdb.blobdb.bytes.read COUNT : 0
+rocksdb.blobdb.write.inlined COUNT : 0
+rocksdb.blobdb.write.inlined.ttl COUNT : 0
+rocksdb.blobdb.write.blob COUNT : 0
+rocksdb.blobdb.write.blob.ttl COUNT : 0
+rocksdb.blobdb.blob.file.bytes.written COUNT : 0
+rocksdb.blobdb.blob.file.bytes.read COUNT : 0
+rocksdb.blobdb.blob.file.synced COUNT : 0
+rocksdb.blobdb.blob.index.expired.count COUNT : 0
+rocksdb.blobdb.blob.index.expired.size COUNT : 0
+rocksdb.blobdb.blob.index.evicted.count COUNT : 0
+rocksdb.blobdb.blob.index.evicted.size COUNT : 0
+rocksdb.blobdb.gc.num.files COUNT : 0
+rocksdb.blobdb.gc.num.new.files COUNT : 0
+rocksdb.blobdb.gc.failures COUNT : 0
+rocksdb.blobdb.gc.num.keys.overwritten COUNT : 0
+rocksdb.blobdb.gc.num.keys.expired COUNT : 0
+rocksdb.blobdb.gc.num.keys.relocated COUNT : 0
+rocksdb.blobdb.gc.bytes.overwritten COUNT : 0
+rocksdb.blobdb.gc.bytes.expired COUNT : 0
+rocksdb.blobdb.gc.bytes.relocated COUNT : 0
+rocksdb.blobdb.fifo.num.files.evicted COUNT : 0
+rocksdb.blobdb.fifo.num.keys.evicted COUNT : 0
+rocksdb.blobdb.fifo.bytes.evicted COUNT : 0
+rocksdb.txn.overhead.mutex.prepare COUNT : 0
+rocksdb.txn.overhead.mutex.old.commit.map COUNT : 0
+rocksdb.txn.overhead.duplicate.key COUNT : 0
+rocksdb.txn.overhead.mutex.snapshot COUNT : 0
+rocksdb.txn.get.tryagain COUNT : 0
+rocksdb.number.multiget.keys.found COUNT : 0
+rocksdb.num.iterator.created COUNT : 0
+rocksdb.num.iterator.deleted COUNT : 0
+rocksdb.block.cache.compression.dict.miss COUNT : 0
+rocksdb.block.cache.compression.dict.hit COUNT : 0
+rocksdb.block.cache.compression.dict.add COUNT : 0
+rocksdb.block.cache.compression.dict.bytes.insert COUNT : 0
+rocksdb.block.cache.compression.dict.bytes.evict COUNT : 0
+rocksdb.block.cache.add.redundant COUNT : 0
+rocksdb.block.cache.index.add.redundant COUNT : 0
+rocksdb.block.cache.filter.add.redundant COUNT : 0
+rocksdb.block.cache.data.add.redundant COUNT : 0
+rocksdb.block.cache.compression.dict.add.redundant COUNT : 0
+rocksdb.files.marked.trash COUNT : 0
+rocksdb.files.deleted.immediately COUNT : 0
+rocksdb.error.handler.bg.errro.count COUNT : 0
+rocksdb.error.handler.bg.io.errro.count COUNT : 0
+rocksdb.error.handler.bg.retryable.io.errro.count COUNT : 0
+rocksdb.error.handler.autoresume.count COUNT : 0
+rocksdb.error.handler.autoresume.retry.total.count COUNT : 0
+rocksdb.error.handler.autoresume.success.count COUNT : 0
+rocksdb.memtable.payload.bytes.at.flush COUNT : 0
+rocksdb.memtable.garbage.bytes.at.flush COUNT : 0
+rocksdb.secondary.cache.hits COUNT : 0
+rocksdb.verify_checksum.read.bytes COUNT : 0
+rocksdb.backup.read.bytes COUNT : 0
+rocksdb.backup.write.bytes COUNT : 0
+rocksdb.remote.compact.read.bytes COUNT : 0
+rocksdb.remote.compact.write.bytes COUNT : 0
+rocksdb.hot.file.read.bytes COUNT : 0
+rocksdb.warm.file.read.bytes COUNT : 0
+rocksdb.cold.file.read.bytes COUNT : 0
+rocksdb.hot.file.read.count COUNT : 0
+rocksdb.warm.file.read.count COUNT : 0
+rocksdb.cold.file.read.count COUNT : 0
+rocksdb.db.get.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.db.write.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.compaction.times.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.compaction.times.cpu_micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.subcompaction.setup.times.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.table.sync.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.compaction.outfile.sync.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.wal.file.sync.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.manifest.file.sync.micros P50 : 2650.000000 P95 : 4503.000000 P99 : 4503.000000 P100 : 4503.000000 COUNT : 12 SUM : 35186
+rocksdb.table.open.io.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.db.multiget.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.read.block.compaction.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.read.block.get.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.write.raw.block.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.l0.slowdown.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.memtable.compaction.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.num.files.stall.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.hard.rate.limit.delay.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.soft.rate.limit.delay.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.numfiles.in.singlecompaction P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.db.seek.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.db.write.stall P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.sst.read.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.num.subcompactions.scheduled P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.bytes.per.read P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.bytes.per.write P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.bytes.per.multiget P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.bytes.compressed P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.bytes.decompressed P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.compression.times.nanos P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.decompression.times.nanos P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.read.num.merge_operands P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.key.size P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.value.size P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.write.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.get.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.multiget.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.seek.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.next.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.prev.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.blob.file.write.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.blob.file.read.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.blob.file.sync.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.gc.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.compression.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.decompression.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.db.flush.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.sst.batch.size P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.num.index.and.filter.blocks.read.per.level P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.num.data.blocks.read.per.level P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.num.sst.read.per.level P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.error.handler.autoresume.retry.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+2022/09/30-13:29:01.043337 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.043375 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.043385 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.043394 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.043403 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.043411 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.043419 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.043430 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.043438 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.043445 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.043453 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.043461 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.043468 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.043476 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.043484 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.043491 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.043499 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.043518 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.043526 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.043533 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.043560 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.043568 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.043576 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.043586 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.043594 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.043651 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.043663 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.043672 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.043680 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.043688 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.043705 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.043715 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.043723 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.043730 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.043738 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.043746 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.043754 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.043761 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.043769 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.043776 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.043784 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.043792 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.043799 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.043807 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.043815 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.043823 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.043830 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.043841 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.043849 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.076029 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.076063 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.076072 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.076080 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.076090 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.076098 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.076106 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.076117 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.076125 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.076132 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.076140 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.076148 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.076155 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.076163 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.076171 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.076178 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.076186 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.076194 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.076201 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.076217 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.076228 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.076236 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.076243 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.076254 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.076261 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.076273 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.076281 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.076289 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.076296 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.076303 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.076311 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.076318 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.076326 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.076333 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.076341 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.076349 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.076357 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.076364 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.076372 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.076379 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.076387 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.076395 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.076402 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.076410 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.076418 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.076425 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.076433 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.076442 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.076450 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.106680 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.106718 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.106727 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.106735 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.106744 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.106752 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.106760 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.106770 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.106786 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.106798 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.106806 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.106814 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.106822 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.106829 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.106837 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.106844 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.106852 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.106859 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.106867 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.106875 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.106882 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.106889 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.106897 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.106907 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.106914 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.106927 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.106934 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.106942 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.106949 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.106957 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.106964 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.106972 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.106979 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.106987 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.106994 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.107002 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.107010 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.107017 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.107025 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.107032 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.107040 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.107048 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.107055 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.107063 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.107071 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.107081 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.107090 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.107099 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.107107 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.136312 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.136357 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.136366 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.136374 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.136385 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.136393 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.136401 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.136415 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.136422 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.136430 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.136438 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.136446 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.136454 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.136461 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.136469 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.136478 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.136485 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.136493 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.136511 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.136520 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.136527 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.136535 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.136543 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.136555 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.136563 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.136575 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.136583 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.136591 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.136599 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.136606 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.136614 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.136621 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.136629 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.136637 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.136645 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.136661 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.136672 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.136680 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.136688 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.136695 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.136703 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.136711 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.136719 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.136726 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.136736 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.136743 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.136751 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.136760 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.136768 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.165043 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.165075 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.165084 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.165092 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.165101 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.165109 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.165117 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.165127 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.165135 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.165143 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.165150 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.165158 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.165166 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.165173 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.165181 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.165189 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.165196 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.165204 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.165252 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.165326 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.165336 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.165344 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.165352 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.165373 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.165386 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.165399 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.165407 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.165414 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.165422 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.165429 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.165437 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.165444 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.165451 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.165459 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.165466 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.165474 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.165482 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.165489 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.165509 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.165517 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.165524 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.165532 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.165540 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.165547 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.165555 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.165563 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.165570 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.165579 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.165588 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.195864 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.195898 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.195907 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.195915 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.195924 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.195932 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.195940 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.195951 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.195959 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.195967 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.195974 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.195982 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.195997 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.196008 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.196016 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.196024 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.196032 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.196039 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.196047 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.196054 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.196062 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.196069 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.196077 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.196087 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.196094 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.196106 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.196114 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.196121 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.196129 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.196136 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.196143 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.196151 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.196158 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.196166 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.196174 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.196181 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.196189 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.196197 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.196204 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.196212 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.196219 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.196227 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.196234 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.196242 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.196250 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.196257 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.196265 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.196274 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.196282 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.225692 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.225735 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.225749 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.225758 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.225767 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.225775 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.225783 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.225795 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.225803 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.225811 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.225818 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.225826 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.225834 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.225842 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.225849 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.225858 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.225871 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.225879 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.225887 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.225895 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.225902 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.225910 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.225917 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.225928 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.225936 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.225948 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.225956 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.225964 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.225971 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.225979 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.225986 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.225993 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.226001 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.226012 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.226020 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.226028 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.226036 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.226043 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.226051 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.226063 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.226072 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.226080 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.226088 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.226096 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.226104 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.226112 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.226120 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.226129 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.226137 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.255845 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.255879 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.255888 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.255896 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.255905 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.255913 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.255921 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.255932 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.255940 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.255947 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.255955 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.255962 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.255970 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.255977 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.255985 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.255993 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.256001 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.256008 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.256016 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.256023 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.256031 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.256038 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.256046 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.256056 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.256064 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.256075 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.256082 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.256090 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.256105 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.256117 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.256124 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.256131 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.256139 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.256146 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.256154 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.256161 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.256169 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.256177 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.256184 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.256192 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.256199 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.256207 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.256214 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.256221 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.256230 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.256237 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.256245 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.256254 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.256262 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.284036 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.284070 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.284079 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.284087 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.284096 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.284104 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.284112 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.284124 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.284132 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.284140 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.284147 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.284155 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.284163 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.284170 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.284178 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.284186 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.284194 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.284212 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.284224 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.284231 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.284239 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.284246 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.284254 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.284264 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.284272 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.284284 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.284292 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.284299 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.284307 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.284314 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.284322 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.284329 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.284336 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.284344 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.284352 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.284359 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.284367 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.284374 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.284382 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.284389 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.284397 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.284404 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.284412 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.284419 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.284428 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.284436 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.284443 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.284452 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.284460 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.313015 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [], inputs:
+2022/09/30-13:29:01.313048 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.313057 cdc [db\db_impl\db_impl.cc:1125] [] SetOptions() succeeded
+2022/09/30-13:29:01.313066 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.313075 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.313088 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.313099 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.313110 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.313118 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.313125 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.313133 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.313140 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.313148 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.313156 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.313163 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.313171 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.313178 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.313186 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.313193 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.313201 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.313208 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.313216 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.313223 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.313233 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.313241 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.313253 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.313260 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.313268 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.313276 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.313283 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.313290 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.313297 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.313305 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.313312 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.313320 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.313327 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.313335 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.313342 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.313350 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.313357 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.313365 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.313372 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.313380 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.313391 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.313400 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.313408 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.313416 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.313425 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.313433 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:01.343357 cdc [db\db_impl\db_impl.cc:1118] SetOptions() on column family [default], inputs:
+2022/09/30-13:29:01.343389 cdc [db\db_impl\db_impl.cc:1121] disable_auto_compactions: false
+2022/09/30-13:29:01.343398 cdc [db\db_impl\db_impl.cc:1125] [default] SetOptions() succeeded
+2022/09/30-13:29:01.343406 cdc [options\cf_options.cc:946]                         write_buffer_size: 67108864
+2022/09/30-13:29:01.343415 cdc [options\cf_options.cc:948]                   max_write_buffer_number: 2
+2022/09/30-13:29:01.343423 cdc [options\cf_options.cc:951]                          arena_block_size: 1048576
+2022/09/30-13:29:01.343431 cdc [options\cf_options.cc:953]               memtable_prefix_bloom_ratio: 0.000000
+2022/09/30-13:29:01.343442 cdc [options\cf_options.cc:955]               memtable_whole_key_filtering: 0
+2022/09/30-13:29:01.343450 cdc [options\cf_options.cc:958]                   memtable_huge_page_size: 0
+2022/09/30-13:29:01.343457 cdc [options\cf_options.cc:961]                     max_successive_merges: 0
+2022/09/30-13:29:01.343465 cdc [options\cf_options.cc:964]                  inplace_update_num_locks: 10000
+2022/09/30-13:29:01.343473 cdc [options\cf_options.cc:968]                          prefix_extractor: nullptr
+2022/09/30-13:29:01.343481 cdc [options\cf_options.cc:970]                  disable_auto_compactions: 0
+2022/09/30-13:29:01.343488 cdc [options\cf_options.cc:972]       soft_pending_compaction_bytes_limit: 68719476736
+2022/09/30-13:29:01.343507 cdc [options\cf_options.cc:974]       hard_pending_compaction_bytes_limit: 274877906944
+2022/09/30-13:29:01.343515 cdc [options\cf_options.cc:976]        level0_file_num_compaction_trigger: 4
+2022/09/30-13:29:01.343523 cdc [options\cf_options.cc:978]            level0_slowdown_writes_trigger: 20
+2022/09/30-13:29:01.343550 cdc [options\cf_options.cc:980]                level0_stop_writes_trigger: 36
+2022/09/30-13:29:01.343557 cdc [options\cf_options.cc:982]                      max_compaction_bytes: 1677721600
+2022/09/30-13:29:01.343566 cdc [options\cf_options.cc:984]                     target_file_size_base: 67108864
+2022/09/30-13:29:01.343573 cdc [options\cf_options.cc:986]               target_file_size_multiplier: 1
+2022/09/30-13:29:01.343581 cdc [options\cf_options.cc:988]                  max_bytes_for_level_base: 268435456
+2022/09/30-13:29:01.343588 cdc [options\cf_options.cc:990]            max_bytes_for_level_multiplier: 10.000000
+2022/09/30-13:29:01.343599 cdc [options\cf_options.cc:992]                                       ttl: 0
+2022/09/30-13:29:01.343607 cdc [options\cf_options.cc:994]               periodic_compaction_seconds: 0
+2022/09/30-13:29:01.343619 cdc [options\cf_options.cc:1008] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2022/09/30-13:29:01.343627 cdc [options\cf_options.cc:1010]         max_sequential_skip_in_iterations: 8
+2022/09/30-13:29:01.343634 cdc [options\cf_options.cc:1012]          check_flush_compaction_key_order: 1
+2022/09/30-13:29:01.343642 cdc [options\cf_options.cc:1014]                      paranoid_file_checks: 0
+2022/09/30-13:29:01.343649 cdc [options\cf_options.cc:1016]                        report_bg_io_stats: 0
+2022/09/30-13:29:01.343657 cdc [options\cf_options.cc:1018]                               compression: 4
+2022/09/30-13:29:01.343664 cdc [options\cf_options.cc:1022] compaction_options_universal.size_ratio : 1
+2022/09/30-13:29:01.343680 cdc [options\cf_options.cc:1024] compaction_options_universal.min_merge_width : 2
+2022/09/30-13:29:01.343691 cdc [options\cf_options.cc:1026] compaction_options_universal.max_merge_width : -1
+2022/09/30-13:29:01.343699 cdc [options\cf_options.cc:1029] compaction_options_universal.max_size_amplification_percent : 200
+2022/09/30-13:29:01.343707 cdc [options\cf_options.cc:1032] compaction_options_universal.compression_size_percent : -1
+2022/09/30-13:29:01.343714 cdc [options\cf_options.cc:1034] compaction_options_universal.stop_style : 1
+2022/09/30-13:29:01.343722 cdc [options\cf_options.cc:1037] compaction_options_universal.allow_trivial_move : 0
+2022/09/30-13:29:01.343729 cdc [options\cf_options.cc:1039] compaction_options_universal.incremental        : 0
+2022/09/30-13:29:01.343737 cdc [options\cf_options.cc:1043] compaction_options_fifo.max_table_files_size : 1073741824
+2022/09/30-13:29:01.343745 cdc [options\cf_options.cc:1045] compaction_options_fifo.allow_compaction : 0
+2022/09/30-13:29:01.343752 cdc [options\cf_options.cc:1049]                         enable_blob_files: false
+2022/09/30-13:29:01.343760 cdc [options\cf_options.cc:1051]                             min_blob_size: 0
+2022/09/30-13:29:01.343767 cdc [options\cf_options.cc:1053]                            blob_file_size: 268435456
+2022/09/30-13:29:01.343775 cdc [options\cf_options.cc:1055]                     blob_compression_type: NoCompression
+2022/09/30-13:29:01.343783 cdc [options\cf_options.cc:1057]            enable_blob_garbage_collection: false
+2022/09/30-13:29:01.343790 cdc [options\cf_options.cc:1059]        blob_garbage_collection_age_cutoff: 0.250000
+2022/09/30-13:29:01.343799 cdc [options\cf_options.cc:1061]   blob_garbage_collection_force_threshold: 1.000000
+2022/09/30-13:29:01.343807 cdc [options\cf_options.cc:1063]            blob_compaction_readahead_size: 0
+2022/09/30-13:29:02.029923 930 [db\db_impl\db_impl.cc:841] ------- PERSISTING STATS -------
+2022/09/30-13:29:02.029961 930 [db\db_impl\db_impl.cc:910] [Pre-GC] In-memory stats history size: 16 bytes, slice count: 0
+2022/09/30-13:29:02.029971 930 [db\db_impl\db_impl.cc:919] [Post-GC] In-memory stats history size: 16 bytes, slice count: 0
+2022/09/30-13:32:52.970963 1d3c [db\db_impl\db_impl.cc:482] Shutdown: canceling all background work
+2022/09/30-13:32:52.978992 1d3c [db\db_impl\db_impl.cc:699] Shutdown complete
